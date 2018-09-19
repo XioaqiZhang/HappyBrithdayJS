@@ -98,7 +98,7 @@ Shape.Engine = function (canvas) {
     this.height = canvas.height;
 
     this.context = canvas.getContext("2d");
-    this.context.fillStyle = 'red';
+    this.context.fillStyle = 'white';
     this.shapeFactory = new Shape();
     this.points = [];
     this.shapeFactory.resize();
