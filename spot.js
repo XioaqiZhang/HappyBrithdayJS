@@ -11,6 +11,8 @@
     function start() {
        // document.getElementById('go').removeEventListener('click', start);
         promise.then(() => engine.toText('亲爱的'))
+		.then(() => engine.shake())
+        .then(() => engine.toText('张冬梅'))
         .then(() => engine.shake())
         .then(() => engine.toText('生日快乐！'))
         .then(() => engine.shake())
