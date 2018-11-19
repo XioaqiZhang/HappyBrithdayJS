@@ -12,13 +12,11 @@
        // document.getElementById('go').removeEventListener('click', start);
         promise.then(() => engine.toText('亲爱的'))
 		.then(() => engine.shake())
-        .then(() => engine.toText('张冬梅'))
+        .then(() => engine.toText('小徒弟'))
         .then(() => engine.shake())
         .then(() => engine.toText('生日快乐！'))
         .then(() => engine.shake())
-        .then(() => engine.toText('LOVE'))
-        .then(() => engine.shake())
-        .then(() => engine.toText('YOU !'))
+        .then(() => engine.toText('天天开心！'))
         .then(() => engine.shake())
         .then(() => engine.clear())
         .then(() => document.getElementById('go').addEventListener('click', start));
