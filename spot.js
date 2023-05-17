@@ -10,13 +10,13 @@
     
     function start() {
        document.getElementById('go').removeEventListener('click', start);
-        promise.then(() => engine.toText('亲爱的'))
+        promise.then(() => engine.toText('亲爱的刘艳'))
 		.then(() => engine.shake())
         .then(() => engine.toText(''))
         .then(() => engine.shake())
-        .then(() => engine.toText('生日快乐！'))
+        .then(() => engine.toText('520快乐！'))
         .then(() => engine.shake())
-        .then(() => engine.toText('天天开心！'))
+        .then(() => engine.toText('在一起的每天都是情人节'))
         .then(() => engine.shake())
         .then(() => engine.clear())
         .then(() => document.getElementById('go').addEventListener('click', start));
