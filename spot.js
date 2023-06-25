@@ -14,7 +14,7 @@
 		.then(() => engine.shake())
         .then(() => engine.toText(''))
         .then(() => engine.shake())
-        .then(() => engine.toText('520快乐！'))
+        .then(() => engine.toText('生日快乐！'))
         .then(() => engine.shake())
         .then(() => engine.toText('爱你的阳'))
         .then(() => engine.shake())
